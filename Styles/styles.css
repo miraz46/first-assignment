@@ -125,7 +125,7 @@
 
 /* Section Two */
 
-.section-two{
+.section-two {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,21 +133,24 @@
     margin-top: 128px;
     gap: 186px;
 }
-.section-two-title{
+
+.section-two-title {
     color: #272727;
     font-family: Lato;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal; 
+    line-height: normal;
     color: #272727;
 }
-.extra-off{
+
+.extra-off {
     color: #E55473;
 }
-.section-two-description{
+
+.section-two-description {
     display: flex;
-    width: 594px; 
+    width: 594px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -159,17 +162,19 @@
 
 /* Section Three */
 
-.section-three{
-   
+.section-three {
+
 }
-.section-three-title{
+
+.section-three-title {
     margin-top: 178px;
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     text-align: center;
 }
-.section-three-description{
+
+.section-three-description {
     margin-top: 24px;
     margin-bottom: 48px;
     text-align: center;
@@ -178,10 +183,55 @@
     font-weight: 400;
     line-height: 30px;
 }
-.section-three-images{
+
+.section-three-images {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    
+
+}
+
+/* Section Four */
+
+
+.section-four-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 128px;
+}
+
+.section-four-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* Footer */
+.footer-container{
+    height: 400px;
+    text-align: center;
+    background-color: #272727;
+    padding-top: 180px;
+}
+
+.footer-title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.footer-small-p{
+    color: #FFFFFF66;
 }
