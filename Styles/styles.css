@@ -1,5 +1,7 @@
 * {
     font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header Section Styles */
@@ -32,9 +34,7 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    display: inline-flex;
     padding: 20px 43px;
-    align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
     background: #E55473;
@@ -49,7 +49,7 @@
 
 /* Main Section Styles */
 
-/* Section One */
+/* Section One/Bonus Section */
 .bonus-section {
     display: flex;
     justify-content: center;
@@ -121,4 +121,38 @@
     line-height: 35px;
     text-decoration-line: underline;
     margin-top: -32px;
+}
+
+/* Section Two */
+
+.section-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E554730D;
+    margin-top: 128px;
+    gap: 186px;
+}
+.section-two-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+    color: #272727;
+}
+.extra-off{
+    color: #E55473;
+}
+.section-two-description{
+    display: flex;
+    width: 594px; 
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
